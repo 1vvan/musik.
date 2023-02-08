@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Musik.</title>
 
     <!-- Import Fonts -->
@@ -11,12 +11,12 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,regular,600,700" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="../images/icons/musik-icon.png" type="image/png">
+    <link rel="shortcut icon" href="./images/icons/musik-icon.png" type="image/png">
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__container">
+            <div class="header__container container">
                 <div class="header__top">
                     <div class="header__logo">
                         <img src="images/icons/logo.png" alt="">
@@ -46,7 +46,7 @@
             </div>
         </header>
         <main class="main">
-            <div class="main__container">
+            <div class="main__container container">
                 <div class="main__category">
                     <div class="main__category-title">
                         <span>Explore</span> By Category
@@ -127,8 +127,111 @@
                             <div class="schedule-dates__item-line"></div>
                         </div>
                     </div>
-                    <div class="main__schedule-image">
-                        <img src="images/schedule-img.png" alt="">
+                    <div class="main__schedule-table">
+                        <div class="schedule__table-title">
+                            <div class="schedule__table-title-item schedule__table-time">
+                                Time
+                            </div>
+                            <div class="schedule__table-title-item schedule__table-content">
+                                Content
+                            </div>
+                            <div class="schedule__table-title-item schedule__table-speakers">
+                                Speakers
+                            </div>
+                            <div class="schedule__table-title-item schedule__table-buttons"></div>
+                        </div>
+                        <div class="schedule__table-preview">
+                                <div class="schedule__table-preview-time schedule__table-time">
+                                    11:00 AM to 12:00 PM
+                                </div>
+                                <div class="schedule__table-preview-text schedule__table-content">
+                                    Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                                </div>
+                                <div class="schedule__table-preview-speakers schedule__table-speakers">
+                                    <div class="schedule__preview-speakers-item schedule__table-speakers-item">
+                                        <img src="./images/schedule/ronald.png" alt="">
+                                        <div class="schedule__preview-speakers-item-text">
+                                            <h5>Yui Ronald</h5>
+                                            <p>Booth:<span>2F12</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="schedule__table-preview-btn schedule__table-buttons">
+                                    <button>
+                                        <p>Preview</p>
+                                        <img src="./images/schedule/Icons/play.png" alt="">
+                                    </button>
+                                </div>
+                        </div>
+                        <div class="schedule__table-live">
+                                <div class="schedule__table-live-time schedule__table-time">
+                                    12:00 PM to 03:00 PM
+                                </div>
+                                <div class="schedule__table-live-text schedule__table-content">
+                                    Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna
+                                    nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus
+                                    ac rhoncus. Morbi quis luctus leo, nec cursus ex.
+                                </div>
+                                <div class="schedule__table-live-speakers schedule__table-speakers">
+                                    <div class="schedule__live-speakers-item schedule__table-speakers-item">
+                                        <img src="./images/schedule/bob.png" alt="">
+                                        <div class="schedule__live-speakers-item-text">
+                                            <h5>Bob John</h5>
+                                            <p>Booth:<span>3G12</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="schedule__live-speakers-item schedule__table-speakers-item">
+                                        <img src="./images/schedule/ronald.png" alt="">
+                                        <div class="schedule__live-speakers-item-text">
+                                            <h5>Yui Ronald</h5>
+                                            <p>Booth:<span>2F12</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="schedule__live-speakers-item schedule__table-speakers-item">
+                                        <img src="./images/schedule/emma.png" alt="">
+                                        <div class="schedule__live-speakers-item-text">
+                                            <h5>Emma Satoshi</h5>
+                                            <p>Booth:<span>2A35</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="schedule__table-live-btn schedule__table-buttons">
+                                    <button>
+                                        <p>Live</p>
+                                        <img src="./images/schedule/Icons/live-camera.png" alt="">
+                                    </button>
+                                </div>
+                        </div>
+                        <div class="schedule__table-upcoming">
+                            <div class="schedule__table-upcoming-time schedule__table-time">
+                                03:00 PM to 04:00 PM
+                            </div>
+                            <div class="schedule__table-upcoming-text schedule__table-content">
+                                Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                            </div>
+                            <div class="schedule__table-upcoming-speakers schedule__table-speakers">
+                                <div class="schedule__upcoming-speakers-item schedule__table-speakers-item">
+                                    <img src="./images/schedule/sasha.png" alt="">
+                                    <div class="schedule__upcoming-speakers-item-text">
+                                        <h5>Sasha Jackson</h5>
+                                        <p>Booth:<span>2F18</span></p>
+                                    </div>
+                                </div>
+                                <div class="schedule__upcoming-speakers-item schedule__table-speakers-item">
+                                    <img src="./images/schedule/diana.png" alt="">
+                                    <div class="schedule__upcoming-speakers-item-text">
+                                        <h5>Diana Brock</h5>
+                                        <p>Booth:<span>2F24</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="schedule__table-upcoming-btn schedule__table-buttons">
+                                <button>
+                                    <p>Upcoming</p>
+                                    <img src="./images/schedule/Icons/clock.png" alt="">
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="main__pricing">
@@ -314,31 +417,33 @@
                     </div>
         </div>
         <footer class="footer">
-            <div class="footer__logo">
-                <img src="images/icons/logo.png" alt="">
-            </div>
-            <div class="footer__content">
-                <nav class="footer__menu">
-                    <a href="#" class="footer__menu-item">home</a>
-                    <a href="#" class="footer__menu-item">company</a>
-                    <a href="#" class="footer__menu-item">blog</a>
-                    <a href="#" class="footer__menu-item">contact us</a>
-                    <a href="#" class="footer__menu-item">sitemap</a>
-                </nav>
-                <div class="footer__links">
-                    <a href="#" class="footer__links-item">
-                        <img src="images/icons/facebook.png" alt="">
-                    </a>
-                    <a href="#" class="footer__links-item">
-                        <img src="images/icons/twitter.png" alt="">
-                    </a>
-                    <a href="#" class="footer__links-item">
-                        <img src="images/icons/linkedin.png" alt="">
-                    </a>
-                    <a href="#" class="footer__links-item">
-                        <img src="images/icons/instagram.png" alt="">
-                    </a>
-                    <span>© musik.com, 2021</span>
+            <div class="footer__container container">
+                <div class="footer__logo">
+                    <img src="images/icons/logo.png" alt="">
+                </div>
+                <div class="footer__content">
+                    <nav class="footer__menu">
+                        <a href="#" class="footer__menu-item">home</a>
+                        <a href="#" class="footer__menu-item">company</a>
+                        <a href="#" class="footer__menu-item">blog</a>
+                        <a href="#" class="footer__menu-item">contact us</a>
+                        <a href="#" class="footer__menu-item">sitemap</a>
+                    </nav>
+                    <div class="footer__links">
+                        <a href="#" class="footer__links-item">
+                            <img src="images/icons/facebook.png" alt="">
+                        </a>
+                        <a href="#" class="footer__links-item">
+                            <img src="images/icons/twitter.png" alt="">
+                        </a>
+                        <a href="#" class="footer__links-item">
+                            <img src="images/icons/linkedin.png" alt="">
+                        </a>
+                        <a href="#" class="footer__links-item">
+                            <img src="images/icons/instagram.png" alt="">
+                        </a>
+                        <span>© musik.com, 2021</span>
+                    </div>
                 </div>
             </div>
         </footer>
