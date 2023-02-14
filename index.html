@@ -21,12 +21,25 @@
                     <div class="header__logo">
                         <img src="images/icons/logo.png" alt="">
                     </div>
-                    <nav class="header__menu">
-                        <a href="#" class="header__menu-item active">home</a>
-                        <a href="#" class="header__menu-item">speakers</a>
-                        <a href="#" class="header__menu-item">schedule</a>
-                        <a href="#" class="header__menu-item">contact us</a>
-                        <btn class="header__menu-btn btn">get tickets</btn>
+                    <button class="header__burger" id="burger">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Speakers</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Schedule</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Contact Us</a>
+                            </li>
+                            <button class="menu__btn btn">Get Tickets</button>
+                        </ul>
                     </nav>
                 </div>
                 <div class="header__main">
@@ -442,11 +455,14 @@
                         <a href="#" class="footer__links-item">
                             <img src="images/icons/instagram.png" alt="">
                         </a>
-                        <span>© musik.com, 2021</span>
+                       
                     </div>
+                    <span>© musik.com, 2021</span>
                 </div>
             </div>
         </footer>
+
+        <script src="./js/script.js"></script>
     </div>
 
 </body>
